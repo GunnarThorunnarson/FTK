@@ -1,8 +1,9 @@
-## Tilraunir með RPi, GPIO og Picam 
+## Tilraunir með RPi
 
 - RPi 
 - GPIO
 - PiCam
+- Skynjarar
 - Vefþjónusta
 
 ---
