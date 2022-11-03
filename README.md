@@ -7,14 +7,6 @@
 
 ---
 
-## Tímaverkefni 1 
-
-- 15% af heildareinkunn.
-- Áætlaður tími: 8 klst
-- Raspberry Pi, GPIO, RFID og OLED
-
----
-
 #### Uppsetning á RPi stýrikerfi (sleppa)
 
 Settu upp RPi stýrikerfi á SD minniskortið þitt og stilltu RPi Zero skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) þannig að þú getur tengst wifi bæði heima og í skóla.
