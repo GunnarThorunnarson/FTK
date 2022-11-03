@@ -65,7 +65,7 @@ Með PiCam og RPi er hægt að streyma "live" myndbönd.
 ---
 
 #### 7. Að taka ljósmynd með takka.
-1. Notaðu takka (þegar honum er sleppt) til að taka myndina.
+1. Notaðu takka (þegar honum er sleppt) til að taka ljósmyndina.
 1. Bættu við 3 sek. timer með takka til þess að taka myndina, [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
 
 ---
