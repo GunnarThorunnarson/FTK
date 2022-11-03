@@ -34,26 +34,43 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-#### 5. PiCamera 
+#### 5. PiCamera V2
 1. Taktu mynd af þér með að nota terminal
    - **Varúð!** Slökktu fyrst á RPi þegar þú tengir myndavélina við Camera Serial Interface (CSI) á RPi. 
    - Tengdu PiCamera við RPi. Ef þú ert að nota RPi Zero þá sjá hér [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA). 
-   - Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2)
-   - [Picamera Documentation](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
+   - [Picamera hardware spec.](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
+   - Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) tutorialnum.
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með Pi myndavélinni tengda við RPi og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')` 
    - [picamera library](https://picamera.readthedocs.io/en/release-1.13/)
-1. Ath. RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
+1. Taktu upp stutt myndband með PiCam. Tvismelltu á skránna hún mun opnast í VLC spilara.
+
+Ath:
+- Það þarf að nota Debian Buster 32-bit (legacy) RPi stýrikerfið til að geta notað picamera (driver ekki tilbúinn fyrir Bullsey).
+- RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
+
+<!-- 
+`omxplayer video.h264` 
+[Get Started with Pi Camera V2](https://littlebirdelectronics.com.au/guides/198/get-started-with-pi-camera-v2) 
+-->
 
 ---
 
-#### 6. Að taka ljósmynd með takka.
+#### 6. Streyma "live" myndband (sleppa)
+Með PiCam og RPi er hægt að streyma "live" myndbönd.  
+
+- [sýnidæmi með VLC](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
+- [sýnidæmi með Flask](https://github.com/miguelgrinberg/flask-video-streaming)
+
+---
+
+#### 7. Að taka ljósmynd með takka.
 1. Notaðu takka (þegar honum er sleppt) til að taka myndina.
 1. Bættu við 3 sek. timer með takka til þess að taka myndina, [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
 
 ---
 
 
-#### 7. PIR hreyfiskynjarinn. 
+#### 8. PIR hreyfiskynjarinn. 
 Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED. 
 
 - [PIR (lastminute)](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
@@ -66,7 +83,7 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
 
 ---
 
-#### 8. PIR og PiCamera.
+#### 9. PIR og PiCamera.
 
 1. Taktu mynd þegar PIR hreyfiskynjari fer í gang  
 1. Sendu ljósmyndina á gmail netfang. (má sleppa)
@@ -74,13 +91,6 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
     - Búðu til Gmail reikning og leyfðu “Allow less secure apps” svo hægt er að taka við tölvpóst með python kóða.
     - Slepptu að nota buzzer
     
----
-
-
-#### 9. Myndbandsupptaka 
-Með PiCam og RPi er hægt að taka upp og streyma myndbönd. Taktu upp stutt myndband með PiCam. Sjá t.d. [Video to file](https://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-video-to-a-file).
-**Skoða** Settu upp myndbandsstreymi, hýstu á vefsíðu með ESP32 eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
-
 ---
 
 #### 10. Myndgreining með vefþjónustu
