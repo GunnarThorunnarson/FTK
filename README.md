@@ -104,6 +104,9 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
 
+Veldu þér þjónustu til að nota með RPi og PiCam.
+
+<!--
 Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) frá Microsoft Azure til að greina hluti á ljósmynd. 
 
 1. Myndgreining með Computer Vision
@@ -118,7 +121,9 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 - [Computer Vision SDK for Python](https://docs.microsoft.com/en-us/python/api/overview/azure/cognitiveservices-vision-computervision-readme?view=azure-python-preview)
 - [myndbönd](https://www.youtube.com/hashtag/azureinpython)
 
-Gott að vita: RPi Zero virkar ekki með með OpenCV
+-->
+
+- Gott að vita: RPi Zero virkar ekki með með OpenCV
 
 ---
 
