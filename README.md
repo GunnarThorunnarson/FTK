@@ -44,7 +44,8 @@ Við að ýta á takka þá kemur birta af LED.
    - [picamera library](https://picamera.readthedocs.io/en/release-1.13/)
 1. Taktu upp stutt myndband með PiCam. Tvismelltu á skránna hún mun opnast í VLC spilara.
 
-Ath:
+
+#### Ath:
 - Það þarf að nota Debian Buster 32-bit (legacy) RPi stýrikerfið til að geta notað picamera (driver ekki tilbúinn fyrir Bullsey).
 - RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
 
