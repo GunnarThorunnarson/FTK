@@ -34,7 +34,7 @@ Pæling. hvað ætli `pause()` skipunin geri?
 #### 4. GPIO: Takki og LED. 
 Við að ýta á takka þá kemur birta af LED. 
 
-Pæling: Hver er munurinn á `when_pressed`, `is_pressed` og `wait_for_press?
+Pæling: Hver er munurinn á `when_pressed`, `is_pressed` og `wait_for_press`?
 
 ---
 
