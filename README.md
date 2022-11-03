@@ -8,7 +8,7 @@
 
 ---
 
-#### Uppsetning á RPi stýrikerfi (sleppa)
+#### Uppsetning á RPi stýrikerfi (sleppa, búið að gera)
 
 Settu upp RPi stýrikerfi á SD minniskortið þitt og stilltu RPi Zero skv. [leiðbeiningum](https://github.com/VESM3/IOT/blob/main/Efni/RPiuppsetning.md) þannig að þú getur tengst wifi bæði heima og í skóla.
 
@@ -29,7 +29,7 @@ Láttu LED blikka á brauðbretti með python kóða. Notaðu [T-Coppler](https:
 
 ---
 
-#### 4. GPIO: Takki og LED. (10%)
+#### 4. GPIO: Takki og LED. 
 Við að ýta á takka þá kemur birta af LED. 
 
 ---
