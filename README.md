@@ -37,7 +37,7 @@ Við að ýta á takka þá kemur birta af LED.
 #### 5. PiCamera V2
 1. Taktu mynd af þér með að nota terminal
    - **Varúð!** Slökktu fyrst á RPi þegar þú tengir myndavélina við Camera Serial Interface (CSI) á RPi. 
-   - Tengdu PiCamera við RPi. Ef þú ert að nota RPi Zero þá sjá hér [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA). 
+   - Tengdu PiCamera við RPi. Ef þú ert að nota RPi Zero þá sjá hér [How to connect a Picamera to a Pi ZERO](https://www.youtube.com/watch?v=zFAX4pH1BPA). 
    - [Picamera hardware spec.](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
    - Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) tutorialnum.
 1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með Pi myndavélinni tengda við RPi og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')` 
