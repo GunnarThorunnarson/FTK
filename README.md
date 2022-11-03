@@ -27,6 +27,8 @@ Búðu til python skrá og notaðu [nano](https://www.nano-editor.org/) command-
 #### 3. GPIO: Blikkandi ljós. 
 Láttu LED blikka á brauðbretti með python kóða. Notaðu [T-Coppler](https://www.adafruit.com/product/2028) með brauðbrettinu og `GPIO Zero` safninu. Nýttu þér kóðalausnir í [Basic Recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html). Hér er [GPIO Zero pinout](https://gpiozero.readthedocs.io/en/stable/cli_tools.html#pinout) þegar þú notar ekki T-Coppler.
 
+Pæling. hvað ætli `pause()` skipunin geri?
+
 ---
 
 #### 4. GPIO: Takki og LED. 
