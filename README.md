@@ -79,9 +79,9 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
 
 - [PIR (lastminute)](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
    - PIR er tengt í 5V (er með innbyggðan 3.3V regulator) 
-   - Víxlaðu GND og Vc staðsetningum (mismunandi eftir tegundum).
-   - stilltu næmleika og timeout á PIR með að snúa báðum allaleið rangsælis.
    - taktu linsu af PIR til að þrengja IR svið. 
+   - Skoðaðu vel GND og Vc staðsetningar (mismunandi eftir tegundum)
+   - stilltu næmleika og timeout á PIR með að snúa báðum allaleið rangsælis.
 - [PIR (adafruit)](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview)
 - [Motion sensor kóðalausn](https://gpiozero.readthedocs.io/en/stable/recipes.html#motion-sensor)
 
