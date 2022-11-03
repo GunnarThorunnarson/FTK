@@ -20,7 +20,7 @@ Notaðu [Thonny](https://thonny.org/) ritil á RPi OS. Búðu til python skrá o
 ---
 
 #### 2. Nano ritill í terminal. (sleppa)
-Notaðu terminal og Linux skipanir til að skoða þig um í RPi stýrikerfinu. Búðu til python skrá og notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal til að skrifa python kóða sem innheldur prentskipun með nafninu þínu. Keyrðu svo python skránna í terminal. sjá [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/).
+Búðu til python skrá og notaðu [nano](https://www.nano-editor.org/) command-line ritil í terminal til að skrifa python kóða sem innheldur prentskipun með nafninu þínu. Keyrðu svo python skránna í terminal. sjá [Raspberry Pi – Run Python Script in the Terminal](https://roboticsbackend.com/raspberry-pi-run-python-script-in-the-terminal/).
 
 ---
 
