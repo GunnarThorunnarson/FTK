@@ -56,7 +56,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-#### 6. Streyma "live" myndband (sleppa)
+#### 6. Streyma myndband (sleppa)
 Með PiCam og RPi er hægt að streyma "live" myndbönd.  
 
 - [sýnidæmi með VLC](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
