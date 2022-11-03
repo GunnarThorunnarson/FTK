@@ -39,8 +39,8 @@ Pæling: Hver er munurinn á `when_pressed`, `is_pressed` og `wait_for_press`?
 ---
 
 #### 5. PiCamera V2
-
-[Picamera V2 hardware specification](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
+Það þarf að nota Debian Buster 32-bit (legacy) RPi stýrikerfið til að geta notað picamera. Hér er
+[Picamera V2 hardware spec](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
 
 Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) tutorial og skoðaðu [picamera](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#) safnið.
 1. Slökktu fyrst á RPi þegar þú tengir myndavélina við Camera Serial Interface (CSI) á RPi. 
@@ -51,7 +51,6 @@ Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org
 
 
 #### Ath:
-- Það þarf að nota Debian Buster 32-bit (legacy) RPi stýrikerfið til að geta notað picamera (driver ekki tilbúinn fyrir Bullsey).
 - RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
 
 <!-- 
