@@ -81,7 +81,7 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
    - PIR er tengt í 5V (er með innbyggðan 3.3V regulator) 
    - taktu linsu af PIR til að þrengja IR svið. 
    - Skoðaðu vel GND og Vc staðsetningar (mismunandi eftir tegundum)
-   - stilltu næmleika og timeout á PIR með að snúa báðum allaleið rangsælis.
+   - stilltu næmleika og timeout á PIR eftir þörfum.
 - [Motion sensor kóðalausn](https://gpiozero.readthedocs.io/en/stable/recipes.html#motion-sensor)
 
 <!-- 
