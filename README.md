@@ -50,8 +50,7 @@ Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org
 1. Taktu upp stutt myndband með PiCam. Tvismelltu á skránna hún mun opnast í VLC spilara.
 
 
-#### Ath:
-- RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
+**Ath:** RPi Zero virkar ekki vel með [libcamera](https://www.raspberrypi.com/documentation/accessories/camera.html).
 
 <!-- 
 `omxplayer video.h264` 
