@@ -128,4 +128,5 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 ---
 
 Takk fyrir!
+
 kv. Eiríkur og Gunnar
