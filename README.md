@@ -33,7 +33,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-### 5. PiCamera 
+#### 5. PiCamera 
 1. Taktu mynd af þér með að nota terminal
    - **Varúð!** Slökktu fyrst á RPi þegar þú tengir myndavélina við Camera Serial Interface (CSI) á RPi. 
    - Tengdu PiCamera við RPi. Ef þú ert að nota RPi Zero þá sjá hér [How to connect a Picamera to a Pi ZERO (myndband)](https://www.youtube.com/watch?v=zFAX4pH1BPA). 
@@ -45,7 +45,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 ---
 
-### 6. Að taka ljósmynd með takka.
+#### 6. Að taka ljósmynd með takka.
 1. Notaðu takka (þegar honum er sleppt) til að taka myndina.
 1. Bættu við 3 sek. timer með takka til þess að taka myndina, [Button controlled camera](https://gpiozero.readthedocs.io/en/stable/recipes.html#button-controlled-camera)
 
@@ -76,13 +76,13 @@ Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED.
 ---
 
 
-### 9. Myndbandsupptaka 
+#### 9. Myndbandsupptaka 
 Með PiCam og RPi er hægt að taka upp og streyma myndbönd. Taktu upp stutt myndband með PiCam. Sjá t.d. [Video to file](https://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-video-to-a-file).
 **Skoða** Settu upp myndbandsstreymi, hýstu á vefsíðu með ESP32 eða notaðu VLC. [sýnidæmi 1](https://github.com/miguelgrinberg/flask-video-streaming), [sýnidæmi 2](https://www.tomshardware.com/how-to/stream-live-video-raspberry-pi)
 
 ---
 
-### 10. Myndgreining með vefþjónustu
+#### 10. Myndgreining með vefþjónustu
 
 [Myndgreiningavefþjónustur](https://nordicapis.com/7-best-image-recognition-apis/) eru sniðugar til að greina hluti, andlit, liti og texta á ljósmyndum.
 
