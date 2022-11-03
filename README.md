@@ -53,7 +53,7 @@ Við að ýta á takka þá kemur birta af LED.
 
 
 #### 7. PIR hreyfiskynjarinn. 
-Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED. 
+Kynntu þér PIR og notaðu hreyfisykynjara til að kveikja á LED. 
 
 - [PIR (lastminute)](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/)
    - PIR er tengt í 5V (er með innbyggðan 3.3V regulator) 
@@ -68,7 +68,7 @@ Kynntu þér PIR og notaðu hreyfisyknjara til að kveikja á LED.
 #### 8. PIR og PiCamera.
 
 1. Taktu mynd þegar PIR hreyfiskynjari fer í gang  
-1. Sendu ljósmyndina á gmail netfang.
+1. Sendu ljósmyndina á gmail netfang. (má sleppa)
     - [How to Use the Raspberry Pi4 Camera and PIR Sensor to Send Emails](https://maker.pro/raspberry-pi/projects/how-to-use-the-raspberry-pi4-camera-and-pir-sensor-to-send-emails)
     - Búðu til Gmail reikning og leyfðu “Allow less secure apps” svo hægt er að taka við tölvpóst með python kóða.
     - Slepptu að nota buzzer
