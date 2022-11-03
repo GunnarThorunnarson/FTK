@@ -40,8 +40,8 @@ Við að ýta á takka þá kemur birta af LED.
    - Tengdu PiCamera við RPi. Ef þú ert að nota RPi Zero þá sjá hér [How to connect a Picamera to a Pi ZERO](https://www.youtube.com/watch?v=zFAX4pH1BPA). 
    - [Picamera hardware spec.](https://www.raspberrypi.com/documentation/accessories/camera.html#hardware-specification)
    - Fylgdu [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) tutorialnum.
-1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með Pi myndavélinni tengda við RPi og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')` 
-   - [picamera library](https://picamera.readthedocs.io/en/release-1.13/)
+1. Skrifaðu python kóða til að takta mynd með 1024x768 upplausn af sjálfum þér með einhverjum effect með PiCam og vistaðu á skjáborðinu. `camera.capture('/home/pi/Desktop/image.jpg')` 
+   - [picamera library](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#)
 1. Taktu upp stutt myndband með PiCam. Tvismelltu á skránna hún mun opnast í VLC spilara.
 
 
