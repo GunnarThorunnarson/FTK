@@ -121,7 +121,11 @@ Skoðaðu og notaðu [Computer Vision](https://azure.microsoft.com/en-us/service
 
 -->
 
-- Gott að vita: RPi Zero virkar ekki með með OpenCV
+- Gott að vita: 
+- RPi Zero virkar ekki með með OpenCV
+- Microsoft Azure, Cognitive-services, Tskóli kennaraaðgangur: https://azureforeducation.microsoft.com/devtools
+  - Nemendaaðgangur: frítt via github student package
+- Machine learning: Tenserflow lite og OpenCV  
 
 ---
 
